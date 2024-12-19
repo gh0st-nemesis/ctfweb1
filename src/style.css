@@ -1,0 +1,92 @@
+/* Style général du site */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+textarea {
+    width: 80%;
+    height: 150px;
+    padding: 15px;
+    font-size: 1.1em;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+    resize: vertical;
+}
+
+button {
+    font-size: 1.1em;
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.comment-box {
+    margin-top: 20px;
+}
+
+.comment {
+    background-color: #f1f1f1;
+    border-left: 5px solid #4CAF50;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.comment p {
+    color: #444;
+}
+
+/* Amélioration du style responsive pour mobile */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    textarea {
+        width: 95%;
+    }
+
+    button {
+        width: 95%;
+        margin-top: 10px;
+    }
+}
